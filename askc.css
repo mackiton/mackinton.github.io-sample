@@ -1,0 +1,307 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+  text-align: center;
+  background: #F6F6F6;
+  color: #515151;
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+}
+.page{
+margin: 0 auto 20px;
+width:920px;
+}
+.page-frame{
+  border-top: 8px #6CC6C4 solid;
+
+}
+.header-top{
+  display: flex;
+  justify-content: space-between;
+}
+.header-title{
+  margin-top: 30px;
+}
+.reserve{
+  margin-top: 15px;
+}
+.reserve-top{
+  font-size: 65%;
+}
+.header-tel{
+  font-size: 150%;
+  margin-top: 10px;
+}
+.reserve-info{
+  border: solid 1px #D6D6D6;
+  padding:10px 7%;
+  font-size: 40%;
+  margin-top: 10px;
+}
+.reserve-info span{
+color: red;
+}
+
+/*  ヘッダーナビ  */
+/*ボーダーラジウスで外だけ丸み、境界線の作り方*/
+
+.header-nav{
+  display: flex;
+  margin-top: 45px;
+border-radius: 5px;
+
+}
+.header-ul{
+ width: 20%;
+ background: linear-gradient(rgb(156,227,225),rgb(108,198,196));
+ padding: 15px 0;
+}
+.header-li p{
+color: white;
+padding-bottom:10px;
+}
+.aside-main-flex{
+  display: flex;
+  margin-top: 25px;
+}
+.aside-nav{
+  width: 280px;
+}
+.aside-nav-top{
+  background: linear-gradient(rgb(156,227,225),rgb(108,198,196));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  padding: 12px 7px;
+  text-align: left;
+}
+.aside-ul{
+  background-color: white;
+  margin: 0;
+  border:1px solid #6CC6C4;
+}
+.aside-nav li{
+  list-style: none;
+  text-align: left;
+  padding-bottom: 10px;
+    border-bottom: 1px solid #6CC6C4;
+margin: 15px 5%;
+    font: bold;
+}
+.aside-nav-1{
+  margin-bottom: 23px;
+}
+.aside-nav li :hover{
+  color: gold;
+}
+.aside-nav a{
+  text-decoration: none;
+  color: black;
+}
+.main-img{
+  margin-bottom: 10px;
+}
+.new-info{
+  background-color: white;
+  margin: 15px 5%;
+  padding-top: 15px;
+}
+.info-title{
+  border-bottom: solid #6CC6C4 3px;
+  padding-bottom: 13px;
+  margin: 15px 5%;
+  text-align: left;
+  font-weight: bold;
+}
+.info-main{
+  text-align: left;
+}
+.info-main dt{
+  float: left;
+  padding-top: 5px;
+  padding-left: 5%;
+}
+.info-main dd{
+    padding: 5px 2% 10px 28%;
+    margin:0;
+   line-height: 1.3;
+
+    border-bottom: 1px #CCCCCC dotted;
+  }
+
+dl{
+    padding: 0 1.7% 10px 1.7%;
+    margin-bottom: 15px;
+}
+.footer{
+  margin-top: 60px;
+}
+.footer-nav{
+  background-color: #6CC6C4;
+  padding: 15px 5px;
+  border-radius: 7px;
+}
+.footer-nav-ul{
+  display: flex;
+
+}
+.footer-nav-ul li{
+  color: white;
+  padding-right: 5%;
+}
+
+.footer-nav-ul a{
+text-decoration: none;
+color: white;
+}
+.fa-circle{
+  padding-right: 3px;
+}
+.footer-nav-ul :hover{
+  color: blue;
+}
+.footer-info{
+  margin-top: 40px;
+  text-align: right;
+  font-size: 85%;
+  padding-bottom: 7px;
+  border-bottom: 3px solid #6CC6C4;
+}
+.footer-info span{
+  font-weight: bold;
+}
+.footer-cr{
+  margin-top: 40px;
+  font-size: small;
+}
+/*レスポンシブ対応*/
+@media(max-width:800px){
+  .page{margin:0;
+        width: auto;}
+/*ヘッダー*/
+ .header-top{
+  display: block;
+}
+.header-nav{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: auto;
+}
+.header-ul{
+  width: auto;
+}
+.aside-main-flex{
+  display: flex;
+  flex-direction: column;
+}
+.aside-nav{
+  width: auto;
+  margin: 0 10px 10px;
+}
+.info-main dt{
+  float: unset;
+}
+.info-main dd{
+  padding:10px 0;
+}
+
+
+
+
+
+
+
+
+}
